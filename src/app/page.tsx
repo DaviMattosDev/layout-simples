@@ -25,7 +25,7 @@ const PricingPage: React.FC = () => {
         />
         <h1
           className={`text-4xl font-bold ${
-            darkMode ? "text-black" : "text-white"
+            darkMode ? "text-gray-900" : "text-white"
           }`}
         >
           Planos de Consultoria
