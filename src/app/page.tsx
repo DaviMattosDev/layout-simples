@@ -74,7 +74,7 @@ const PricingPage: React.FC = () => {
           Escolha o plano que melhor se adapta às suas necessidades!
         </h2>
         <p
-          className={`text-center text-lg font-sans text-sm size-25 ${
+          className={`text-center text-lg font-sans size-25 ${
             darkMode ? "text-gray-400" : "text-gray-500"
           }`}
         >
