@@ -10,7 +10,7 @@ const PricingPage: React.FC = () => {
   return (
     <div
       className={`transition-all duration-500 ${
-        darkMode ? "gray-800 text-white" : "bg-gray-100 text-black"
+        darkMode ? "bg-gray-800 text-white" : "bg-gray-100 text-black"
       }`}
     >
       <header
