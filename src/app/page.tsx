@@ -64,9 +64,14 @@ const PricingPage: React.FC = () => {
             </li>
           </ul>
         </nav>
-        <button className="absolute top-2 right-2" onClick={toggleDarkMode}>
-          {darkMode ? "Modo Claro" : "Modo Escuro"}
-        </button>
+        <button
+            className={`absolute top-2 right-2 text-center font-bold text-lg ${
+              darkMode ? "text-white" : "text-black"
+            }`}
+            onClick={toggleDarkMode}
+          >
+            {darkMode ? "Modo Claro" : "Modo Escuro"}
+          </button>
       </header>
 
       <section className="py-8">
