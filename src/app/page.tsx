@@ -78,7 +78,7 @@ const PricingPage: React.FC = () => {
             darkMode ? "text-gray-400" : "text-gray-500"
           }`}
         >
-          Bem-vindo aos nossos planos de preços! Aqui você encontrará opções
+          Aqui você encontrará opções
           adaptadas às suas necessidades. Nossa equipe está comprometida em
           fornecer os melhores serviços para ajudar no crescimento do seu
           negócio.
